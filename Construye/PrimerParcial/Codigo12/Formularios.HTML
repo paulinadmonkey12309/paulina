@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <!--
+         Codigo: 12
+         Objetivo: Manipular y conocer los formularios
+         Fecha Creacion: 23 Septiembre 2025
+         Autor: Paulina
+    -->
+         <h1>Formularios</h1>
+         <p>Un bloque dentro de una pagina web cuya funcion principal es recolectar infomacion para ser<br>
+            procesada, local o remoto</p>
+
+        <h1>Ejemplo 1</h1>
+         <from action="#">
+            Nombre <input type="text"><br>
+            Apaterno <input type="text"><br>
+            Amaterno <input type="text"><br>
+
+            Genero <select name="" id="">
+                <option value="">Masculino</option>
+                <option value="">Femenino</option>
+            </select>
+         </from>
+         <br>
+        <h1>Ejemplo 2</h1>
+        <from action="#">
+            Nombre <br> <input type="text"><br>
+            Apaterno <br> <input type="text"><br>
+            Amaterno <br> <input type="text"><br>
+            <br>
+            Genero <select name="" id="">
+                <option value="">Masculino</option>
+                <option value="">Femenino</option>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+         </from>
+         <br>
+        <h1>Ejemplo 3</h1>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text"></td>
+                    <td>Apaterno</td>
+                    <td><input type="text"></td>
+                    <td>Amaterno</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Genero</td>
+                    <td>
+                        <select name=""_id="">
+                        <option value="">Masculino</option>
+                        <option value="">Femenino</option>
+                      </select>
+                    </td>
+                </tr>
+                <td> </td>
+                <td><input type="submit" value="Enviar"></td>
+                <td> </td>
+                <td> </td>
+            </table>
+        </form>
+        <br>
+        <h1>Ejemplo 4</h1>
+        <form action="#">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="ap">Apaterno</label>
+            <input type="text" name="ap">
+            <label for="am">Amaterno</label>
+            <input type="text" name="am">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="">
+            <label for="fn">FechaNacimiento</label>
+            <input type="date" name="fn" id="">
+            <label for="hn">Hora</label>
+            <input type="time" name="hn" id="">
+            <label for="Email">Correo Electronico</label>
+            <input type="email" name="Email" id="">
+            <label for="redes">Redes Sociales</label>
+            <input type="url" name="redes" id="">
+            <label for="color">Color Favorito</label>
+            <input type="color" name="color" id="">
+            <label for="rango">Rango</label>
+            <input type="range" name="rango" id="">
+            <input type="button" value="Enviar">
+        </form>
+        <br>
+        <h1>Ejemplo 5</h1>
+        <form action="#">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="ap">Apaterno</label></td>
+                    <td><input type="text" name="ap"></td>
+                </tr>
+                <tr>
+                    <td><label for="am">Amaterno</label></td>
+                    <td><input type="text" name="am"></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" name="edad" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="fn">FechaNacimiento</label></td>
+                    <td><input type="date" name="fn" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="hn">Hora</label></td>
+                    <td><input type="time" name="hn" id=""></td>
+                </tr>
+                <tr>
+                    <td> <label for="Email">Correo Electronico</label></td>
+                    <td><input type="email" name="Email" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="redes">Redes Sociales</label></td>
+                    <td><input type="url" name="redes" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="color">Color Favorito</label></td>
+                    <td><input type="color" name="color" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="rango">Rango</label></td>
+                    <td><input type="range" name="rango" id=""></td>
+                </tr>
+                <br><br>
+                <tr><td> <input type="button" value="Enviar"></td></tr>
+            </table>
+        </form>
+        <br><br><br>
+        <a href="../../../Index.HTML">
+            <img src="../../../Img/Home.png" alt="back"></a>
+</body>
+</html>

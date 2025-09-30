@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+</head>
+<body>
+    <script>
+        /*
+            Codigo: 12
+            Onjetivo: Repaso de operacines basicas
+            Fecha Creacion: 23 Septiembre 2025
+            Autor: Paulina
+        */
+       let Producto= prompt("Ingresa tu producto: ");
+       let Precio= prompt("El precio es de: ");
+       let Descuento=prompt("Ingresa el descuento (en %): ");
+          console.log("Producto: " , Producto);
+          console.log("Precio: "  , Precio);
+          let montonDescuento=parseFloat(Precio)*parseFloat(Descuento / 100);
+          let totalApagar= Precio - montonDescuento;
+          console.log("Descuento:  " , montonDescuento);
+          console.log("Total a pagar:  " , totalApagar);
+    </script>
+</body>
+</html>
